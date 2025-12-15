@@ -1,6 +1,7 @@
 [build]
-
   command = "npm run build-prod"
+  publish = ".netlify/output"  # Netlify plugin will populate this
+
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "false"

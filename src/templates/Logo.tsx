@@ -14,7 +14,7 @@ const Logo = (props: ILogoProps) => {
     <span className={`inline-flex items-center text-gray-900 ${fontStyle}`}>
       <svg
         className="mr-1 stroke-current text-primary-500"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=done_all"
         width={size}
         height={size}
         viewBox="0 0 24 24"
