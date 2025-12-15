@@ -15,3 +15,10 @@ module.exports = withBundleAnalyzer({
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
 });
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // replaces the old next export
+  // other config options
+};
+
+module.exports = nextConfig;
