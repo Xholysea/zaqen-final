@@ -1,6 +1,5 @@
 [build]
 command = "npm run build-prod"
-publish = ".netlify/output"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
