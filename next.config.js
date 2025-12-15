@@ -6,16 +6,13 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true, // REQUIRED for <Image /> with export
+    unoptimized: true,
   },
-
   eslint: {
     dirs: ['.'],
   },
-
   poweredByHeader: false,
   trailingSlash: true,
-  basePath: '',
   reactStrictMode: true,
 };
 
