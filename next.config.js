@@ -3,22 +3,22 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
-module.exports = withBundleAnalyzer({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // REQUIRED for Netlify static export
+
+  images: {
+    unoptimized: true, // REQUIRED for <Image /> with export
+  },
+
   eslint: {
     dirs: ['.'],
   },
+
   poweredByHeader: false,
   trailingSlash: true,
   basePath: '',
-  // The starter code load resources from `public` folder with `router.basePath` in React components.
-  // So, the source code is "basePath-ready".
-  // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
-});
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // replaces the old next export
-  // other config options
 };
 
-module.exports = nextConfig;
+module.exports = withBundleAnalyzer(nextConfig);
