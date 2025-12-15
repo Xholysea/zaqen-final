@@ -5,8 +5,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // REQUIRED for Netlify static export
-
   images: {
     unoptimized: true, // REQUIRED for <Image /> with export
   },
