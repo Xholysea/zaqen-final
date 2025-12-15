@@ -3,27 +3,29 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="We build digital products people actually enjoy"
+    description="From lightning-fast websites to scalable mobile apps, we design and develop experiences that look great, feel smooth, and work flawlessly."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Websites that convert, not just exist"
+      description="Clean design, solid performance, and real-world UX. We build websites that load fast, rank well, and turn visitors into customers."
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="High-performance websites illustration"
     />
+
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Apps built for real users"
+      description="iOS, Android, or cross-platform — we focus on usability, speed, and scalability so your app grows with your business."
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="Mobile app development illustration"
       reverse
     />
+
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Modern tech, done right"
+      description="Next.js, React, Tailwind, cloud-native setups, and clean code, we even do Shopify & WooCommerce Builds. No overengineering — just the right tools for long-term success."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Modern tech stack illustration"
     />
   </Section>
 );
