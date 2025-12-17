@@ -1,5 +1,5 @@
 export const AppConfig = {
-  site_name: 'Zaqen',
+  site_name: '',
   title: 'Zaqen Technologies',
   description:
     'Providing the best development for all kinds of apps and websites',
