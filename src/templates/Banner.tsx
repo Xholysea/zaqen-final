@@ -10,7 +10,7 @@ const Banner = () => (
       title="Zaqen, your road to the web."
       subtitle="Start your Free Trial, now along with the most renown websites ever."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="zaqen.dev">
           <Button>Get Started</Button>
         </Link>
       }
