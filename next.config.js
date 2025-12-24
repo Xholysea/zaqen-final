@@ -5,15 +5,20 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+
   images: {
     unoptimized: true,
   },
+
   eslint: {
     dirs: ['.'],
   },
+
   poweredByHeader: false,
-  trailingSlash: true,
-  reactStrictMode: true,
+
+  // 🚫 REMOVE THIS for Netlify
+  // trailingSlash: true,
 };
 
 module.exports = withBundleAnalyzer(nextConfig);
