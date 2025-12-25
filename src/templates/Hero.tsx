@@ -12,10 +12,12 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://zaqen.dev/aboutus">About Us</Link>
+          <Link href="https://zaqen.dev/about-us/">About Us</Link>
         </li>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="https://calendly.com/antoine-zaqen/30min">
+            Book A Meeting
+          </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
