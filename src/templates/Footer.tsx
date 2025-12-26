@@ -1,9 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
 import { Logo } from './Logo';
+import TrustpilotWidget from './TrustpilotWidget';
 
 const Footer = () => (
   <Background color="bg-gray-100">
@@ -70,6 +73,8 @@ const Footer = () => (
             GitHub
           </Link>
         </li>
+
+        <TrustpilotWidget />
       </CenteredFooter>
     </Section>
   </Background>
