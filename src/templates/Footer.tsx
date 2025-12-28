@@ -63,7 +63,7 @@ const Footer = () => (
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">About</Link>
+          <Link href="https://zaqen.dev/about-us/">About</Link>
         </li>
         <li>
           <Link href="/">Docs</Link>
